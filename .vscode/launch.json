@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/ch9_binary_trees/binary_tree/bin/Debug/net6.0/binary_tree.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/ch9_binary_trees/binary_tree",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    },
+    {
+      "name": "C#: binary_tree",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/ch9_binary_trees/binary_tree/binary_tree.csproj",
+      "launchConfigurationId": "TargetFramework=;binary_tree"
+    }
+  ]
+}
